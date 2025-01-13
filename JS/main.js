@@ -2,7 +2,7 @@ window.addEventListener('scroll' , ()=>{
     document.querySelector('nav').classList.toggle('window-scroll'  , window.scrollY >0)
 })
 
-
+// this is the main.js file step-1 
 //show/hide question 
 const faqs = document.querySelectorAll('.faq');
 
@@ -20,7 +20,7 @@ faqs.forEach(faq =>{
         }
     })
 })
-
+// this is the main.js file step-2 
 //show/hide nav
 const menu =document.querySelector(".nav__menu");
 const menuBtn =document.querySelector("#open-menu-btn");
@@ -33,7 +33,7 @@ menuBtn.addEventListener('click' , ()=>{
     closeBtn.style.display = "inline-block";
     menuBtn.style.display ='none';
 })
-
+// this is the main.js file step-3
 //close nav menu
 const closeNav =() =>{
     menu.style.display = 'flex';
